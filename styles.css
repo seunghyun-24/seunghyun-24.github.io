@@ -31,6 +31,21 @@ ul ul li {
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+    /* 모바일 화면일 경우에만 적용되는 스타일 */
+    .half-width-on-mobile {
+        max-width: 30%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mobile-custom-box {
+        width: 100%; /* 가로 폭의 80%로 설정 */
+        margin-left: 4ch;
+    }
+}
+
 .custom-title { /* 학위 제목 넣기 */
     text-align: left;
     margin-left: 3ch;
@@ -51,9 +66,11 @@ ul ul li {
     font-size: 20pt;
 }
 
+
 .custom-box { /* 정보 제공 들여쓰기 (형식) */
     margin-left: 4ch;
 }
+
 
 .update-date { /* 맨 하단 update 날짜 */
     font-size: small;
