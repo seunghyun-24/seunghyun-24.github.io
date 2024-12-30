@@ -1,79 +1,85 @@
 body {
-    font: 1rem/1.5 var(--bs-font-sans-serif);
+  font: 1rem/1.5 var(--bs-font-sans-serif);
 }
 
-a { /* 하이퍼링크 스타일, 회색 하단 점선 */
-    text-decoration: underline dotted gray;
-    color: gray;
+a {
+  /* 하이퍼링크 스타일, 회색 하단 점선 */
+  text-decoration: underline dotted gray;
+  color: gray;
 }
 
-ul { /* 단락 나누기 (까만 dot) */
-    list-style-type: disc;
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
+ul {
+  /* 단락 나누기 (까만 dot) */
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
 }
 
 li {
-    padding-left: 1em;
-    margin-bottom: 15px;
+  padding-left: 1em;
+  margin-bottom: 15px;
 }
 
-ul ul { /* 들여 써서 단락 나누기 (하얀 dot) */
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
-    padding-left: 1em;
+ul ul {
+  /* 들여 써서 단락 나누기 (하얀 dot) */
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
 }
 
 ul ul li {
-    padding-left: 1em;
-    margin-bottom: 10px;
+  padding-left: 1em;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 767px) {
-    /* 모바일 화면일 경우에만 적용되는 스타일 */
-    .half-width-on-mobile {
-        max-width: 30%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
+  /* 모바일 화면일 경우에만 적용되는 스타일 */
+  .half-width-on-mobile {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .mobile-custom-box {
-        width: 100%; /* 가로 폭의 80%로 설정 */
-        margin-left: 4ch;
-    }
+  .mobile-custom-box {
+    width: 100%; /* 가로 폭의 80%로 설정 */
+    margin-left: 4ch;
+  }
 }
 
-.custom-title { /* 학위 제목 넣기 */
-    text-align: left;
-    margin-left: 3ch;
+.custom-title {
+  /* 학위 제목 넣기 */
+  text-align: left;
+  margin-left: 3ch;
 }
 
 .custom-title h1 {
-    display: inline-block;
-    margin-left: 10ch;
+  display: inline-block;
+  margin-left: 10ch;
 }
 
-.custom-hr { /* 중간 줄 넣기 */
-    background-color: #6c757d;
-    height: 2px;
+.custom-hr {
+  /* 중간 줄 넣기 */
+  background-color: #6c757d;
+  height: 2px;
 }
 
-.custom-text { /* 정보 제공 파란 글자 */
-    color: #2d77fe;
-    font-size: 20pt;
+.custom-text {
+  /* 정보 제공 파란 글자 */
+  color: #d8a0e9;
+  font-size: 20pt;
 }
 
-
-.custom-box { /* 정보 제공 들여쓰기 (형식) */
-    margin-left: 4ch;
+.custom-box {
+  /* 정보 제공 들여쓰기 (형식) */
+  margin-left: 4ch;
 }
 
-
-.update-date { /* 맨 하단 update 날짜 */
-    font-size: small;
-    color: gray;
-    text-align: center;
+.update-date {
+  /* 맨 하단 update 날짜 */
+  font-size: small;
+  color: gray;
+  text-align: center;
 }
