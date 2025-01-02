@@ -2,10 +2,18 @@ body {
   font: 1rem/1.5 var(--bs-font-sans-serif);
 }
 
+i {
+  margin-right: 3px;
+}
+
 a {
   /* 하이퍼링크 스타일, 회색 하단 점선 */
   text-decoration: underline dotted gray;
   color: gray;
+}
+
+a:hover {
+  color: #d8a0e9;
 }
 
 ul {
